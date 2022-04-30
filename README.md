@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-Тестовое задание для АйЭктив
+# Тестовое задание для АйЭктив
 
 ## Available Scripts
 

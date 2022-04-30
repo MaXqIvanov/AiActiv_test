@@ -1,0 +1,173 @@
+.main{
+    height: 100%;
+    width: 100%;
+   display: grid;
+   grid-template-columns: 60px auto;
+   margin-top: 20px;
+   height: 270px;
+   width: 100%;
+   background: white;
+   box-shadow: 0px 0px 5px white;
+   min-width: 300px;
+   max-width: 700px;
+  position: relative;
+  border-radius: 5px;
+}
+.icon{
+   
+}
+.icon_img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("../images/Ellipse1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.time{
+    width: 100%;
+    color: rgb(175, 175, 175);
+    font-weight: 700;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 8% 8% 36% 6.5% 40%;
+}
+.Spinner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50px;
+    width: 50px;
+    color: black;
+}
+.Button{
+    position: absolute;
+    top: 0px ;
+    right: 0px;
+   
+}
+.ButtonMin{
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+.aurhor{
+    width: fit-content;
+    color: rgb(175, 175, 175);
+    font-weight: 700;
+    height: 100%;
+
+}
+.channel{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    color: rgb(175, 175, 175);
+    font-weight: 700;
+
+    font-size: small;
+}
+.contentMessage{
+    height: 90px;
+    width: 100%;
+   
+    color: rgb(99, 98, 98);
+    font-weight: 700;
+    overflow-y: scroll;
+    // max-height: 240px;
+    font-size: small;
+    text-align: left;
+}
+.button{
+    color: rgb(80, 80, 80);
+    height: 100%;
+    width: 90%;
+    text-align: left;
+    margin-left: 0px;
+    font-size: small;
+    margin-top: 0px;
+    cursor: pointer;
+}
+image{
+    height: 100px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.contentMessage::-webkit-scrollbar {
+    width: 6px; /* ширина scrollbar */
+  }
+  .contentMessage::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255); /* цвет дорожки */
+    border-radius: 25px;
+  }
+  .contentMessage::-webkit-scrollbar-thumb {
+    background-color: #b8e5ff; /* цвет плашки */
+    border-radius: 20px; /* закругления плашки */
+    border: 2px solid #b8e5ff; /* padding вокруг плашки */
+  }
+  .stars{
+      position: absolute;
+      top: 12px;
+      right: 10px;
+      height: 25px;
+      width: 25px;
+    //   background: url("../images/starts.svg");
+    
+      background-repeat: no-repeat;
+      background-size: contain;
+      cursor: pointer;
+  }
+  .elems{
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    height: auto;
+    width: auto;
+    min-width: 90px;
+    display: flex;
+  }
+  .elem1{
+     
+      height: 25px;
+      width: 25px;
+      background-image: url("../images/Group76.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+      cursor: pointer;
+  }
+  .elem2{
+      margin-right: 10px;
+    height: 25px;
+    width: 25px;
+    background-image: url("../images/скрыть.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+  .elem3{
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+    background-image: url("../images/отправить\ Сообщение\ в\ титр.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+  }
+  .newMessage{
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      height: 10px;
+      width: 50px;
+      background-image: url("../images/Новое.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+  }

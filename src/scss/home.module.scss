@@ -1,0 +1,38 @@
+.mainHome{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.message1{
+    height: 100%;
+    width: 70%;
+    min-width: 300px;
+     max-width: 700px;
+     margin-bottom: 20px;
+}
+.nextMessage{
+    width: 30%;
+    height: 30px;
+}
+.blockNextMessage{
+    height: 30px;
+    margin-top: -10px;
+}
+.sorting{
+    position: fixed;
+    top: 50px;
+    right: 20px;
+    z-index: 999;
+    color: aqua;
+    @media(max-width:600px){
+        top: 10px;
+        right: 10px;
+        font-size: large;
+        top: 45px;
+    }
+}
+.Check{
+    font-size: small;
+}
